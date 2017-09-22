@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CB1C1B31-E461-6B94-29D0-4E44F1C6FF5A" containerWithKeyObject="0B7AF2CB-2CD4-A613-C491-DC5D552B5F85" localFKIndex="BF659FEE-24D8-4C1C-3771-6AA873737024" name="CLIENTES_ATIVOS_BSB_STAFF_FK">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-08 20:22:20 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<referredTableLongName>BSB_STAFF</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>43C45CB9-ECB4-1155-D434-1B7A9A484620</referredTableID>
+<keyObject>D9505105-0F0E-0167-2DE0-D67ECED5BFE3</keyObject>
+<referredKeyID>D9505105-0F0E-0167-2DE0-D67ECED5BFE3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

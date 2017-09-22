@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B9582B15-2E30-D768-4F9A-2246A01250E0" name="PEDIDO">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-08 19:02:51 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD" id="99049C38-CA5F-4C10-05E6-AEE629CD90E5">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-08 19:49:35 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PEDIDO" id="C7CE101A-0D73-0732-F887-C21044134257">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-08 20:15:23 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_CLIENTE" id="C23DC067-6E68-5936-1376-F8D67F2F0382">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-08 20:15:53 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FCB94F2C-7E66-692E-050A-8CF796BCDEE5" referredColumn="C07D924F-516A-48A9-F7BE-33A73CAC860B"/>
+</associations>
+</Column>
+<Column name="DT_PREV_EMB" id="95CE9A8B-0FF2-6F89-F4C5-722AE37AC72A">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-22 22:29:21 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_PREV_CHEG" id="A1F9F9AC-BA02-3AEB-A790-396D9D99520A">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-22 22:29:21 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS_PAGAM" id="043F20AA-9690-105D-AF04-94DD0DE2C2F3">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-22 22:29:21 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS_PEDIDO" id="464D6CDE-DA56-33F9-B233-78D053E27AD2">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-22 22:30:15 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75CE596A-787B-22CD-0DDD-30F3933DDC2F" name="PEDIDOS_PK">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-08 19:49:35 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99049C38-CA5F-4C10-05E6-AEE629CD90E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19544BC0-30AF-F5E7-C854-BA5CC8D9C5C9" name="PEDIDO_CLIENTES_ATIVOS_FK">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-08 20:16:07 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C23DC067-6E68-5936-1376-F8D67F2F0382"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

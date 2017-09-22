@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="44206E3B-13DA-ACA7-8C5C-D65CF7443C80">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-08 18:31:45 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="379E7C18-FDB8-E736-FBFF-AAB782CA475C">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-08 18:31:45 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

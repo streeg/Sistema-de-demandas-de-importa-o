@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="45E123B1-95AC-F50E-6ACB-233678B56AFE" mainViewID="3909A8ED-133D-E9E0-7041-F746D6F9BF44">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-08 18:31:45 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

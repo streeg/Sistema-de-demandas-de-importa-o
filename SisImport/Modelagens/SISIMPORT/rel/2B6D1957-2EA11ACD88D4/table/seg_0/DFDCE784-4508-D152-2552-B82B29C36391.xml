@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DFDCE784-4508-D152-2552-B82B29C36391" name="PEDIDO_PRODUTO">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-22 21:38:04 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD" id="F521F90A-3C23-07F9-B630-CF9DCAE25DA2">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-22 21:42:05 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_PEDIDO" id="7B7A353D-A277-31CF-9A87-16342D9708A8">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-22 21:42:05 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C0054A6-53D9-E0BC-9A42-ADAB4D2F586D" referredColumn="99049C38-CA5F-4C10-05E6-AEE629CD90E5"/>
+</associations>
+</Column>
+<Column name="COD_PRODUTO" id="7F6A75B9-6556-0A5A-D058-EC60BF519EDC">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-22 21:42:05 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EAC44B9B-FA44-321A-3A3F-3450C22472D4" referredColumn="5630EA88-22D7-DDC6-397A-2F71F4BE8480"/>
+</associations>
+</Column>
+<Column name="QUANTIDADE" id="6AB6681A-5F9F-7CF1-4FBA-93F0F9C5A890">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-22 21:42:05 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81AE588D-F448-900F-A19C-86C0DAC62325" name="PEDIDO_PRODUTO_PK">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-22 21:42:43 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F521F90A-3C23-07F9-B630-CF9DCAE25DA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5418D1E8-6554-5A04-B148-69FB8E82FB3F" name="PEDIDO_PRODUTO_PEDIDO_FK">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-22 21:42:43 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B7A353D-A277-31CF-9A87-16342D9708A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9ED2F58C-FDCB-8551-C389-EEDCD34104C1" name="PEDIDO_PRODUTO_PRODUTO_FK">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-22 21:42:54 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F6A75B9-6556-0A5A-D058-EC60BF519EDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

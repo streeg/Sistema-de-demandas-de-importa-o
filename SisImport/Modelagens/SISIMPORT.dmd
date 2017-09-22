@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SISIMPORT" id="301B0E25-5E0F-3A7C-E304-724889B43FD6" version="3.5">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-08 18:31:45 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>301B0E25-5E0F-3A7C-E304-724889B43FD6</designId>
+</OSDM_Design>

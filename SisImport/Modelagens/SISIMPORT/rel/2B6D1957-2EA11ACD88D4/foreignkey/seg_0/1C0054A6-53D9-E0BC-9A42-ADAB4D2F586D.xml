@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1C0054A6-53D9-E0BC-9A42-ADAB4D2F586D" containerWithKeyObject="DFDCE784-4508-D152-2552-B82B29C36391" localFKIndex="5418D1E8-6554-5A04-B148-69FB8E82FB3F" name="PEDIDO_PRODUTO_PEDIDO_FK">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-22 21:42:43 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<referredTableLongName>PEDIDO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B9582B15-2E30-D768-4F9A-2246A01250E0</referredTableID>
+<keyObject>75CE596A-787B-22CD-0DDD-30F3933DDC2F</keyObject>
+<referredKeyID>75CE596A-787B-22CD-0DDD-30F3933DDC2F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

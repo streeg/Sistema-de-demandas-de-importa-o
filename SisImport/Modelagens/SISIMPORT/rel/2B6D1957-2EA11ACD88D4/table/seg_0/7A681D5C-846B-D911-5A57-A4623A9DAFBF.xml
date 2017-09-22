@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7A681D5C-846B-D911-5A57-A4623A9DAFBF" name="ARQCI">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-22 18:00:49 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<ordsAlias>table_25</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD" id="C31CDC89-D79B-0A91-1475-534FEE28A620">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-22 18:00:49 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_ARQPOv1_COD</notNullConstraintName>
+</Column>
+<Column name="COD_PEDIDO" id="3DFF3B16-21A3-4834-D423-58D40232EC07">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-22 18:00:49 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A0EA730-A1FD-137B-A62A-DA9156FE8604" referredColumn="99049C38-CA5F-4C10-05E6-AEE629CD90E5"/>
+</associations>
+</Column>
+<Column name="MYMETYPE_TEMP" id="902040C5-11D8-2DAD-0C4F-8AF273C81B37">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-22 18:00:49 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FILENAME_TEMP" id="D0DCAD39-2BB4-F1EB-1FCF-135DD3B8F737">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-22 18:00:49 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400 CHAR</dataTypeSize>
+<ownDataTypeParameters>400 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMG_LAST_UPDATE_TEMP" id="7B66AF89-DE54-FEC6-958D-913F11CD2E00">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-22 18:00:49 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ARQUIVO" id="72BC8A50-9792-495E-DF0D-AD0425C434C7">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-22 18:00:49 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="9505C674-9737-9B65-5DE8-FA4CCCD0BA54">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-22 18:00:49 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB1BE487-3426-9152-B771-6C56F8AE1044" name="ARQCI_PK">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-22 18:00:49 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C31CDC89-D79B-0A91-1475-534FEE28A620"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E45830B1-FC89-4D1E-F873-F06B83C1D2E5" name="ARQCI_PEDIDO_FK">
+<createdBy>PedroHenrique</createdBy>
+<createdTime>2017-09-22 18:00:49 UTC</createdTime>
+<ownerDesignName>SISIMPORT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DFF3B16-21A3-4834-D423-58D40232EC07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
