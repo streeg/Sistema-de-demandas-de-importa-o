@@ -1,0 +1,33 @@
+Tabelas FABRICANTES_POT, PARCEIROS, CLIENTES_POT, CLIENTES_SITE não tem relação com nenhuma outra 
+tabela, são apenas para cadastro e controle.
+
+
+Tabela BSB_STAFF:
+
+Tabela para cadastro dos funcionários da empresa. Cada funcionário ficará responsável por um cliente (e seus pedidos)
+
+Tabela PEDIDO:
+
+Tabela que conterá todos os dados da PO (a PO em si será gerada a partir dela).
+
+Tabela PEDIDO_PRODUTO:
+
+Tabela que conterá os produtos e suas quantidades para cada pedido (uma tabela para cada produto)
+
+Tabela PRODUTO:
+Tabela que conterá todas as informações do produto
+
+Tabela ARQPL:
+
+Tabela que conterá os arquivos PL (anexos) de cada pedido
+
+Tabela ARQPI:
+
+Tabela que conterá os arquivos PI (anexos) de cada pedido
+
+Tabela ARQCI:
+
+Tabela que conterá os arquivos CI (anexos) de cada pedido
+
+
+
