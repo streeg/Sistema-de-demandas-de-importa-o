@@ -1,0 +1,75 @@
+----> Observação = status
+----> colocar tipo de cliente nos alertas
+---->trocar campo contato por responsável
+----> criar alerta para preencher telefone da maneira correta (padrão)
+-----> criar anexo para po antiga
+----> Unificar pot makers e makers 
+----> alguns pedidos tem o adquirente e o importador (parceiros), alguns tem apenas o adquirente (cliente) -- Campo Livre
+-->clientes ativos 
+produto (qual tipo/produto ele pretende importar)
+
+-->clientes pot/ativos/site/consultoria
+primeiro contato (data)
+ultimo contato (data)
+próximo contato (data) ---->para clientes consultoria é a data de entrega de consultoria
+categoria master (cosmeticos)
+subcategoria (produtos capilares)
+produtos (marca shampoo)
+Estado (DF)
+site do cliente
+meio de captação (como encontrou a bsb trade)
+Status
+Regime tributário
+Porto destino 
+whatsapp
+cep
+
+-->produto (Pendente)
+ncm (tipo cpf do prod 8 8888.88.88)
+cubagem (unidade de medida)
+marca
+vai relacionar com fabricantes
+
+---> fabricantes pot
+site
+categoria master
+subcategoria
+mudar contato para responsável 
+whatsapp
+skype
+pais
+estado
+cidade
+endreco
+zip code
+
+-----> parceiros
+site 
+trocar contato por responsável
+wpp
+skype
+
+
+------> Pedido
+data do pedido
+total a pagar
+total pago 
+quanto a pagar (balanço) - fazer sql
+porto de saida
+porto de chegada
+exportador
+tipo (importação, exportação)
+importador 
+
+criar alerta para próximo contato com clientes ativos : 5 dias antes 
+
+
+/---------------------------------------------------------------------/
+
+
+Criar checklist dos campos do relatório 
+
+
+unificar as tabelas de cliente criando um campo pra diferenciar site/ativo e potencial
+
+-->Remover ncm do clientes_consultoria
