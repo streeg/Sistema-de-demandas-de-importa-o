@@ -62,7 +62,7 @@ Uma vez que o programa esta sendo desenvolvido em Apex, a arquitetura da aplica�
 
 Ja para exemplificar a  arquitetura do Banco de dados, na figura abaixo temos a última versão do Modelo Entidade Relacionamento do BD. (O programa passou por diversos modelos, através de reuniões com o cliente e testes para chegar ao modelo final).
 
-![MER do Banco de Dados](tableasV2.PNG)
+![MER do Banco de Dados](SisImport/tableasV2.PNG)
 
 
 -----------------------------------------------------------------------------
