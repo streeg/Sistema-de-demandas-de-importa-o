@@ -2,15 +2,15 @@ Este diretório do git possui arquivos guia para construção do aplicativo de a
 
 Grupo:
 
-Pedro Henrique Gonzaga
+Pedro Henrique Gonzaga - 140030131
 
 Rodrigo Doria Vilaça - 140031111
 
-Guilherme Andreúce
+Guilherme Andreúce - 140141961
 
 Rômulo de Vasconcelos Feijão Filho - 140031260
 
-Hebert Vargas
+Herbert Vargas - 140143262
 
 Universidade de Brasilia
 
