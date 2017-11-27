@@ -20,7 +20,8 @@ Disciplina: Engenharia de Software
 
 # INTRODUÇÃO
 
-Neste trabalho de engenharia de software, iremos criar um sistema Gerenciador de Pedidos para empresas que trabalham com importação, exportação e consultoria. Utilizaremos métodos de desenvolvimento ágil aprendidos na matéria para
+Neste trabalho de engenharia de software, iremos criar um sistema Gerenciador de Pedidos para empresas que trabalham com importação, exportação e consultoria. Utilizaremos métodos de desenvolvimento ágil aprendidos na matéria para construir nosso projeto. 
+
 Teremos como cliente uma empresa real: BSB Trading. Através de reuniões com nossos clientes (funcionários da empresa), tentaremos entender o que eles de fato querem para aplicarmos no sistema.
 
 Utilizaremos a ferramenta Trello para controle das atividades, e criação de histórias de usuário, assim como pontuar as mesmas.
